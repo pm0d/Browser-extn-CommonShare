@@ -1,0 +1,21 @@
+html * {
+  /* font-family: Arial !important; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.eot");
+  src: url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.ttf")
+      format("truetype");
+  font-weight: 100;
+}
+
+#sidenav1A1A button {
+  color: #474747 !important ;
+  font-weight: normal !important;
+}
