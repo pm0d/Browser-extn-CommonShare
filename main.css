@@ -1,21 +1,84 @@
 html * {
-  /* font-family: Arial !important; */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+	/* font-family: Arial !important; */
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
-@font-face {
-  font-family: "Comic Sans MS";
-  src: url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.eot");
-  src: url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.woff")
-      format("woff"),
-    url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.ttf")
-      format("truetype");
-  font-weight: 100;
+/* @font-face {
+	font-family: "Comic Sans MS";
+	src: url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.eot");
+	src: url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.woff") format("woff"),
+		url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.ttf") format("truetype");
+	font-weight: 100;
+} */
+
+#header3 {
+	background: repeating-linear-gradient(135deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px) !important;
+	/* background: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72) !important; */
+	/* background: repeating-radial-gradient(circle, purple, purple 10px, #4b026f 10px, #4b026f 20px) !important; */
+	/* background: radial-gradient(circle, purple, purple 50%, #4b026f 50%, #4b026f) !important; */
+	/* background: linear-gradient(45deg, #5d9634, #5d9634 50%, #538c2b 50%, #538c2b) !important; */
+	/* background-size: 20px 10px !important; */
 }
 
+div#workarea1 {
+	background: none !important;
+}
+
+div#workarea1A1 {
+	background: repeating-linear-gradient(45deg, #eeeeee, #eeeeee 10px, #efefef 10px, #efefef 20px) !important;
+	width: -webkit-fill-available !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+div#workareaLandingOuter {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	overflow: hidden !important;
+}
+
+div#workareaLandingOuter p,
+div#workareaLandingOuter br {
+	display: none !important;
+}
+
+div#workareaLandingOuter img {
+	/* display: none !important; */
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	width: 25%;
+	height: 25%;
+	padding-left: 5%;
+	padding-top: 21%;
+	vertical-align: top !important;
+}
+div#workareaLanding {
+	background: none !important;
+	position: relative !important;
+	left: 30px !important;
+}
+/* p.landing_title1 {
+	display: none !important;
+}
+*/
+p.landing_title1 {
+	content: 'whatever' !important;
+	text-shadow: none !important;
+}
+
+#sidenav1 {
+	min-width: 15% !important;
+	max-width: 20% !important;
+	width: 15% !important;
+}
+#sidenav1A {
+	resize: none !important;
+}
 #sidenav1A1A button {
-  color: #474747 !important ;
-  font-weight: normal !important;
+	color: #474747 !important;
+	font-weight: normal !important;
 }
