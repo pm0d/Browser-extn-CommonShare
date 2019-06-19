@@ -3,6 +3,34 @@ html * {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
+body {
+	background: repeating-linear-gradient(45deg, #ddeeee, #ddeeee 10px, #efefef 10px, #efefef 20px) !important;
+}
+
+#login_chi {
+	display: inline !important;
+}
+
+table#login_table {
+	width: none;
+	border-collapse: separate !important;
+}
+
+table#login_table header span::after {
+	content: "<br>" !important;
+}
+
+#about_nm {
+	display: none !important;
+}
+
+snowfall *,
+.cb-slideshow,
+#login_page_head_text,
+#login_page_head_section {
+	display: none !important;
+}
+
 /* @font-face {
 	font-family: "Comic Sans MS";
 	src: url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.eot");
