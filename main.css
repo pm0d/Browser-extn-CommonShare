@@ -27,7 +27,9 @@ table#login_table header span::after {
 snowfall *,
 .cb-slideshow,
 #login_page_head_text,
-#login_page_head_section {
+#login_page_head_section,
+#whats_new_text,
+#whats_new {
 	display: none !important;
 }
 
