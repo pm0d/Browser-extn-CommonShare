@@ -14,22 +14,22 @@ body {
 table#login_table {
 	width: none;
 	border-collapse: separate !important;
+	margin-top: 15% !important;
 }
 
-table#login_table header span::after {
-	content: "<br>" !important;
+#header span#heading_4 {
+	margin-bottom: 10px !important;
+	display: block !important;
 }
 
-#about_nm {
-	display: none !important;
-}
-
-snowfall *,
+snowfall,
 .cb-slideshow,
 #login_page_head_text,
 #login_page_head_section,
 #whats_new_text,
-#whats_new {
+#whats_new,
+#login_button,
+#about_nm {
 	display: none !important;
 }
 
@@ -52,41 +52,38 @@ snowfall *,
 	/* background-size: 20px 10px !important; */
 }
 
-div#workarea1 {
-	background: none !important;
-}
-
-div#workarea1A1 {
+#workarea1A1 {
 	background: repeating-linear-gradient(45deg, #eeeeee, #eeeeee 10px, #efefef 10px, #efefef 20px) !important;
 	width: -webkit-fill-available !important;
 	border: none !important;
 	box-shadow: none !important;
 }
 
-div#workareaLandingOuter {
+#workarea1,
+#workareaLandingOuter {
 	background: none !important;
 	border: none !important;
 	box-shadow: none !important;
 	overflow: hidden !important;
 }
 
-div#workareaLandingOuter p,
-div#workareaLandingOuter br {
+#workareaLandingOuter p,
+#workareaLandingOuter br {
 	display: none !important;
 }
 
-div#workareaLandingOuter img {
+#workareaLandingOuter img {
 	/* display: none !important; */
 	background: none !important;
 	border: none !important;
 	box-shadow: none !important;
-	width: 25%;
-	height: 25%;
+	width: 40%;
+	height: 40%;
 	padding-left: 5%;
-	padding-top: 21%;
+	padding-top: 4%;
 	vertical-align: top !important;
 }
-div#workareaLanding {
+#workareaLanding {
 	background: none !important;
 	position: relative !important;
 	left: 30px !important;
