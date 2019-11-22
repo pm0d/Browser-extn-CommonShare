@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "background": {
     "scripts": ["js/background.js"]
   },
@@ -10,7 +9,7 @@
   "content_scripts": [
     {
       "css": ["css/main.css"],
-      "js": ["js/content.js", "js/popup.js", "js/jquery-3.3.1.slim.min.js"],
+      "js": ["js/content.js", "js/jquery-3.3.1.slim.min.js"],
       "matches": ["http://10.249.110.236/dashboard/*"]
     }
   ],
@@ -28,35 +27,4 @@
       "description": "Start auto-case-review"
     }
   }
-=======
-	"background": {
-		"scripts": ["background.js"]
-	},
-	"browser_action": {
-		"default_icon": "assets/favicon.png",
-		"default_title": "CommonShare",
-		"default_popup": "popup.html"
-	},
-	"content_scripts": [{
-		"css": ["main.css"],
-		"js": ["main.js", "popup.js"],
-		"matches": ["http://10.249.110.236/dashboard/*"]
-	}],
-	"description": "This extension is for injecting CSS/javascript into CommonShare",
-	"icons": {
-		"128": "assets/favicon.png"
-	},
-	"manifest_version": 2,
-	"name": "CommonShare",
-	"permissions": ["contextMenus", "activeTab", "tabs"],
-	"version": "1.0",
-	"commands": {
-		"case-review-shortcut": {
-			"suggested_key": {
-				"default": "Ctrl+Shift+A"
-			},
-			"description": "Submit case review"
-		}
-	}
->>>>>>> e25fbf6e22ae79f9bacc79354a97b3d6922c1545
 }
