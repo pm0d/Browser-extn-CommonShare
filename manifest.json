@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "css": ["css/main.css"],
-      "js": ["js/content.js", "js/jquery-3.3.1.slim.min.js"],
+      "js": ["js/content.js", "js/popup.js", "js/jquery-3.3.1.slim.min.js"],
       "matches": ["http://10.249.110.236/dashboard/*"]
     }
   ],

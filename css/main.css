@@ -11,10 +11,14 @@ snowfall,
 #whats_new_text,
 #whats_new,
 #login_button,
+#dyna_sidemarquee_content,
+#workareaLandingOuter p,
+#workareaLandingOuter br,
 #about_nm,
 #tr_d1,
 #tr_d2,
 #tr_d3,
+#tr_d4,
 #tr_tl_perception,
 #tr_request_id,
 #tr_rave_email,
@@ -24,49 +28,52 @@ snowfall,
 	display: none !important;
 }
 
-body {
-	background: repeating-linear-gradient(45deg, #ddeeee, #ddeeee 10px, #efefef 10px, #efefef 20px) !important;
+/* Set background pattern */
+body,
+#workarea1A1 {
+	background: repeating-linear-gradient(45deg, #eeeeee, #eeeeee 10px, #efefef 10px, #efefef 20px) !important;
+	width: -webkit-fill-available !important;
+	border: none !important;
 }
 
+/* Show login form */
 #login_chi {
 	display: inline !important;
 }
 
+/* Login form tweaks */
 table#login_table {
 	width: none;
 	border-collapse: separate !important;
 	margin-top: 15% !important;
 }
 
+/* dont remember */
 #header span#heading_4 {
 	margin-bottom: 10px !important;
 	display: block !important;
 }
 
+/* Set gradient pattern on header bar */
 #header3 {
 	background: repeating-linear-gradient(135deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px) !important;
 }
 
-#workarea1A1 {
-	background: repeating-linear-gradient(45deg, #eeeeee, #eeeeee 10px, #efefef 10px, #efefef 20px) !important;
-	width: -webkit-fill-available !important;
-	border: none !important;
-	/* box-shadow: none !important; */
+/* Credits */
+#header1C1Button42 span:after {
+	content: "domarP yb";
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	font-size: 40%;
 }
 
 #workarea1,
 #workareaLandingOuter {
 	background: none !important;
 	border: none !important;
-	/* box-shadow: none !important; */
 	overflow: hidden !important;
 	width: -webkit-fill-available !important;
 	max-width: none !important;
-}
-
-#workareaLandingOuter p,
-#workareaLandingOuter br {
-	display: none !important;
 }
 
 /* #workareaLanding {
@@ -83,12 +90,11 @@ table#login_table {
 	/* box-shadow: none !important; */
 	background: none !important;
 	border: none !important;
-	width: 70% !important;
+	width: 20% !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
-	/* height: 225px; */
-	/* padding-left: 4%; */
-	/* padding-top: 4%; */
+	padding-left: 4%;
+	padding-top: 4%;
 	vertical-align: top !important;
 }
 
@@ -99,16 +105,19 @@ table#login_table {
 	width: -webkit-fill-available !important;
 }
 
+/* Set width of side navigatiob  */
 #sidenav1 {
 	min-width: 15% !important;
 	max-width: 20% !important;
 	width: 15% !important;
 }
 
+/* Disallow resize */
 #sidenav1A {
 	resize: none !important;
 }
 
+/* Fix sidenav font color and weight */
 .common_newbuttons,
 #sidenav1A1A button {
 	color: #474747 !important;
@@ -138,13 +147,15 @@ table#login_table {
 	padding: none !important;
 } */
 
+/* Different patterns */
 /* background: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72) !important; */
 /* background: repeating-radial-gradient(circle, purple, purple 10px, #4b026f 10px, #4b026f 20px) !important; */
 /* background: radial-gradient(circle, purple, purple 50%, #4b026f 50%, #4b026f) !important; */
 /* background: linear-gradient(45deg, #5d9634, #5d9634 50%, #538c2b 50%, #538c2b) !important; */
 /* background-size: 20px 10px !important; */
 
-/* @font-face {
+/* Set font-face
+@font-face {
 	font-family: "Comic Sans MS";
 	src: url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.eot");
 	src: url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.eot?#iefix")
@@ -153,9 +164,3 @@ table#login_table {
 		url("https://cdn.jsdelivr.net/comic-sans-replacer/latest/fonts/ComicNeue-Light.ttf") format("truetype");
 	font-weight: 100;
 } */
-
-
-#tr_ticket_number>td>p {
-	color: red !important;
-	/* https://beta.rave.office.net/search?query= */
-}
